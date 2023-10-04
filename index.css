@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    text-decoration: none;
+    z-index: 100; /* Geçiş katmanını düzenle */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none; /* Listeyi düzenle */
+}
+
+nav div {
+    display: flex;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue; /* Renk ayarı */
+    transition: color 0.3s ease; /* Renk geçiş efekti */
+}
+
+nav ul li a:hover {
+    color: white; /* Fare üzerine geldiğinde renk değiştir */
+}
+
+.header4 {
+    width: 400px;
+    height: auto;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    right: 50%;
+    transform: translateX(50%); /* Orta hizalama */
+}
+
+.header4 p {
+    color: aliceblue;
+}
+
+.header5 {
+    text-align: center;
+    margin-top: 50px; /* Margin ayarı */
+}
+
+.header6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.w3h2p {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    margin-top: 80px;
+}
+
+.w3h2p p {
+    color: aliceblue;
+}
+
+.w3-center {
+    background-color: black;
+    color: aliceblue;
+}
+
+.w3ul {
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.span1 {
+    color: aliceblue;
+    background-color: red;
+}
+
+.spanli {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.imagine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.text p {
+    color: aliceblue;
+    display: block;
+}
+
+.sectionthird {
+    background-color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sectionparagraf h2, .sectionparagraf p {
+    color: rgb(0, 3, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sectionparagraf1 {
+    color: black;
+}
+
+.w3h2p p {
+    color: aliceblue;
+}
+
+.sectionparagraf1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    color: black;
+}
+
+.sectionparagraf0 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.formcreator{
+    display: flex;
+    flex-direction: column;
+}
